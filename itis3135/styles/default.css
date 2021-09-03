@@ -2,7 +2,7 @@
 body
 {
 	font-family: Segoe;
-	color: #0ce6ed ;
+	color: #0ce6ed;
 	background-color: #c91067;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -12,7 +12,7 @@ body
 header, footer
 {
 	text-align: center;
-	color: ;
+	color: #0ce6ed;
 	font-weight: bold;
 }
 
