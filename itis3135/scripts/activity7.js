@@ -13,13 +13,10 @@ window.onload = function() {
     document.getElementById('btn8').onclick = showNum;
     document.getElementById('btn9').onclick = showNum;
     document.getElementById('btnDecimal').onclick = showNum;
-
     document.getElementById('btnPlus').onclick = add;
     document.getElementById('btnMinus').onclick = subtract;
     document.getElementById('btnTimes').onclick = multiply;
     document.getElementById('btnDivide').onclick = divide;
-    
-
     document.getElementById('btnReset').onclick = clear;
     document.getElementById('btnCalc').onclick = calculate;
 }
