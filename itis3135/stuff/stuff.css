@@ -1,0 +1,55 @@
+
+body
+{
+	font-family: Segoe;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin-left: 75px;
+	margin-right: 75px;
+	
+	
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: #0ce6ed;
+	font-weight: bold;
+	
+	border-top-style: dashed;
+	border-right-style: solid;
+	border-left-style: dotted;
+	border-bottom-style: double;
+}
+
+div 
+{ text-align: center; 
+}
+
+ul 
+{ display: inline-block; 
+text-align: left; 
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	text-align: center;
+}
+
+ h4
+{
+	font-size: 50px;
+}
+
