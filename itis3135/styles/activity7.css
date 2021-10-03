@@ -1,9 +1,8 @@
 body
  {
-    font-family:"arial";
+    font-family:"Segoe";
 }
         
-
 #calc
 {
 	width:200px;
@@ -12,16 +11,9 @@ body
     border:outset;
     padding:9px;
 }
-        
-/*button style stuff*/
+
 input
 {
-    font-family:"Courier New";
-    text-align:right;
+    font-family:"sans-serif";
+    text-align:center;
  }
-
-/*Turn unimplimented buttons red*/
-input.implement
-{
-    background-color:red;   
-}
