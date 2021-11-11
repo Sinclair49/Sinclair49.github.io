@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link href="styles/project.css" rel="stylesheet" type="text/css" >
+      <script src="scripts/gallery.js"></script>
+      <title>Commercial General Construction Services</title>
+   </head>
+   <body>
+      <header>
+         <h1> <img src="images/logo.jpg" alt="logo"></h1>
+      </header>
+      <div class="topnav">
+         <a href="index.html">Home</a>
+         <a href="about.html">About Us</a>
+         <a href="services.html">Services</a>
+         <a href="contact.html">Contact Us</a>
+         <a class="active" href="gallery.html">Gallery</a>
+      </div>
+      <main>
+         <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+         </div>
+         <div class="row">
+            <div class="column">
+               <img src="images/shed.jpg" alt="Ventilation Shed" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/walls.jpg" alt="Wall Replacement" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/fan.jpg" alt="New Fan Assembly" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/tube.jpg" alt="Ventilation Tube (Before Replacement)" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/tube2.jpg" alt="Ventilation Tube (After Replacement)" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/layout.jpg" alt="Schematics" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/wiresold.jpg" alt="Wiring Work(Before)" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/wires.jpg" alt="Wiring Work(After)" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+               <img src="images/fence.jpg" alt="Outdoor Security Gate Repair" onclick="myFunction(this);">
+            </div>
+         </div>
+      </main>
+      <footer>
+         <br />
+         <p>Page brought to you by Sinclair Designs</p>
+         <a href="https://validator.w3.org/check?uri=referer">
+         <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
+         <a href="https://jigsaw.w3.org/css-validator/check/referer">
+         <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
+      </footer>
+   </body>
+</html>

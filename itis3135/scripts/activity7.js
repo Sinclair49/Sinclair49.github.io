@@ -74,7 +74,7 @@ function divide() {
 }
 
 
-function calculate() {
+function equals() {
     var num = parseFloat(document.frmCalc.txtNumber.value);
     if (!(isNaN(num))) {
         if (calc == "Add") {
@@ -122,7 +122,7 @@ window.onload = function() {
     document.getElementById('Times').onclick = multiply;
     document.getElementById('Divide').onclick = divide;
     document.getElementById('Clear').onclick = clear;
-    document.getElementById('Calc').onclick = calculate;
+    document.getElementById('Calc').onclick = equals;
 }
 
 

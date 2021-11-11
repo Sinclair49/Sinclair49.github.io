@@ -7,6 +7,14 @@ body
 	margin-left: 75px;
 	margin-right: 75px;
 }
+main
+{
+	font-family: Segoe;
+	color: #0ce6ed;
+	background-color: #c91067;
+	margin-left: 75px;
+	margin-right: 75px;
+}
 
 
 header, footer
