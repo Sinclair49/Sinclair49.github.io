@@ -1,1 +1,7 @@
-https://www.100forms.com/
+email form: https://www.100forms.com/
+
+copy and paste jquery plugin, for the "digital business card" at the bottom of the contact page: https://www.jqueryscript.net/text/jQuery-Plugin-To-Copy-Any-Text-Into-Your-Clipboard-Copy-to-Clipboard.html
+
+bx slider plugin, for the gallery page: https://bxslider.com/
+
+tooltip widget, for when you hover over the "phone number" section on the contact form: https://jqueryui.com/tooltip/

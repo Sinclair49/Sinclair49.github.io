@@ -4,8 +4,16 @@
       <meta charset="UTF-8">
       <link href="styles/project.css" rel="stylesheet" type="text/css" >
       <script src="scripts/gallery.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
       <title>Commercial General Construction Services</title>
    </head>
+   <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+   </script>
    <body>
       <header>
          <h1> <img src="images/logo.jpg" alt="logo"></h1>
@@ -51,6 +59,17 @@
             <div class="column">
                <img src="images/fence.jpg" alt="Outdoor Security Gate Repair" onclick="myFunction(this);">
             </div>
+         </div>
+         <div class="slider">
+            <div><img src="images/shed.jpg" alt="Ventilation Shed"></div>
+            <div><img src="images/walls.jpg" alt="wall replacement"></div>
+            <div><img src="images/fan.jpg" alt="New Fan Assembly"></div>
+            <div><img src="images/tube.jpg" alt="Ventilation Tube (Before Replacement)"></div>
+            <div><img src="images/tube2.jpg" alt="Ventilation Tube (After Replacement)"></div>
+            <div><img src="images/layout.jpg" alt="Ventilation Shed"></div>
+            <div><img src="images/wiresold.jpg" alt="Wiring Work(Before)"></div>
+            <div><img src="images/wires.jpg" alt="Wiring Work(After)"></div>
+            <div><img src="images/fence.jpg" alt="Outdoor Security Gate Repair Shed"></div>
          </div>
       </main>
       <footer>

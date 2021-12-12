@@ -4,6 +4,14 @@
       <meta charset="UTF-8">
       <link href="styles/project.css" rel="stylesheet" type="text/css" >
       <script src="scripts/contact.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+      <script src="scripts/jquery.copy-to-clipboard.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter/scripts/shCore.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushJScript.js"></script>
+      <script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushXml.js"></script>
       <title>Commercial General Construction Services</title>
    </head>
    <body>
@@ -17,6 +25,20 @@
          <a class="active" href="contact.html">Contact Us</a>
          <a href="gallery.html">Gallery</a>
       </div>
+      <script>
+         $(document).ready(function() { $('#example').guardian(); });
+      </script>
+      <script>
+         $( function() {
+           $( document ).tooltip();
+         } );
+      </script>
+      <style>
+         label {
+         display: inline-block;
+         width: 5em;
+         }
+      </style>
       <main>
          <h2>Drop us a line!</h2>
          <p>Send us a message, or call us for a quote. Use our contact form to tell us more about your project, and we will connect you with a service professional immediately!</p>
@@ -27,10 +49,10 @@
             <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
                <tr>
                   <td>
-                     <label for="Name"><b>Name:</b></label>
+                     <label><b>Name:</b><span class="red">*</span></label>
                   </td>
                   <td>
-                     <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+                     <input name="Name" type="text" maxlength="60" data-pattern="alpha" required="required" data-error-message="Name is required" style="width:100%;max-width:250px;" />
                   </td>
                </tr>
                <tr>
@@ -38,7 +60,7 @@
                      <label for="PhoneNumber">Phone Number:</label>
                   </td>
                   <td>
-                     <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+                     <input name="PhoneNumber" title="Phone Number is optional" type="text" maxlength="43" style="width:100%;max-width:250px;" />
                   </td>
                </tr>
                <tr>
@@ -67,8 +89,16 @@
                </tr>
             </table>
          </form>
-         <h2>Commercial General Construction Services, Inc.</h2>
-         <p>PO Box 10493, Greensboro NC 27404 <br> 336.345.0049 <br><br><br>To send a fax, press 9 and wait a really, <i>really</i> long time </p>
+         <center>
+            <div class="demo">
+               <h2>Commercial General Construction Services, Inc.</h2>
+               <p>PO Box 10493, Greensboro NC 27404 </p>
+               Email: bill@wmsinclair.com <br>
+               Phone: 336.345.0049
+            </div>
+            <p>To send a fax, press 9 and wait a really, <i>really</i> long time.</p>
+            <button class="btn btn-primary" data-clipboard-target=".demo">Copy Contact Info</button>
+         </center>
       </main>
       <footer>
          <br />
